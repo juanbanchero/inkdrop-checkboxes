@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle checkboxes",
+        "command": "checkboxes:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "checkboxes",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "checkboxes:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
